@@ -1,7 +1,5 @@
 public class DogDoorSimulator {
 
-    static String name;
-
     public static void main(String[] args) {
         DogDoor door =new DogDoor();
         Remote remote = new Remote(door);
